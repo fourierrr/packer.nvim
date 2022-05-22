@@ -45,7 +45,8 @@ local config_defaults = {
     },
     depth = 1,
     clone_timeout = 60,
-    default_url_format = 'https://github.com/%s.git',
+    -- default_url_format = 'https://github.com/%s.git',
+    default_url_format = 'https://hub.fastgit.xyz/%s.git',
   },
   display = {
     non_interactive = false,
